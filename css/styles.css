@@ -1,0 +1,172 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: "Montserrat-Black";
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat-Black";
+  font-weight: 500;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.phone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin: 18px;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 0 0;
+}
+
+/* features */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-4x {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-4x:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+/* press section */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-img {
+  margin: 3rem;
+  width: 14%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloum {
+  padding: 2% 2%;
+  text-align: center;
+}
+
+.sign-up {
+  margin-top: 40px;
+}
+
+
+@media (max-width:1000px) {
+
+#title{
+  text-align: center;
+}
+
+  .phone{
+    position: relative;
+    transform: rotate(0);
+    width: 250px;
+    margin-left: 40%;
+  }
+
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  padding: 10% 25%;
+  text-align: center;
+}
+
+.cta-btn{
+  margin: 35px 15px;
+}
+
+h4{
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#footer{
+  padding: 3% 25%;
+  text-align: center;
+}
+
+.footer-icon{
+  margin:5px;
+}
